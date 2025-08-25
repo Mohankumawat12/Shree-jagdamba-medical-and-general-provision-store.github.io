@@ -1,1 +1,627 @@
-# Shree-jagdamba-medical-and-general-provision-store.github.io
+<!DOCTYPE html>
+<html lang="hi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shree jagdamba medical and general provision store — Blog & Info</title>
+  <meta name="description"
+    content="Maa Jagdamba Medical Store | All types of medicines available | Boraj, Jaipur, Rajasthan 303338 | Call: +91 96676 02381 | Owner: फुलचनद" />
+  <meta name="theme-color" content="#0ea5e9" />
+  <style>
+    :root {
+      --brand: #0ea5e9;
+      --brand-dark: #0284c7;
+      --accent: #10b981;
+      --ink: #0f172a;
+      --muted: #475569;
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --ring: rgba(14, 165, 233, .35);
+      --radius: 16px;
+    }
+
+    * {
+      box-sizing: border-box
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, 'Noto Sans', sans-serif;
+      color: var(--ink);
+      background: var(--bg)
+    }
+
+    a {
+      color: var(--brand);
+      text-decoration: none
+    }
+
+    img {
+      max-width: 100%;
+      display: block
+    }
+
+    .container {
+      width: min(1100px, 92%);
+      margin-inline: auto
+    }
+
+    .topbar {
+      background: var(--brand);
+      color: #fff;
+      font-size: .95rem
+    }
+
+    .topbar .container {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      justify-content: space-between;
+      padding: .55rem 0
+    }
+
+    .topbar small {
+      opacity: .95
+    }
+
+    header {
+      background: linear-gradient(120deg, #e0f2fe, #f0fdfa)
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 0
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: .7rem
+    }
+
+    .logo {
+      width: 42px;
+      height: 42px;
+      border-radius: 12px;
+      background: var(--brand);
+      display: grid;
+      place-items: center;
+      color: #fff;
+      font-weight: 800;
+      box-shadow: 0 6px 16px rgba(2, 132, 199, .28)
+    }
+
+    .brand h1 {
+      font-size: 1.25rem;
+      margin: 0
+    }
+
+    .nav a.btn {
+      padding: .6rem 1rem;
+      border-radius: 999px;
+      background: var(--ink);
+      color: #fff;
+      font-weight: 600
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap: 24px;
+      align-items: center;
+      padding: 32px 0 18px
+    }
+
+    .hero h2 {
+      font-size: 2.2rem;
+      line-height: 1.15;
+      margin: .25rem 0 .75rem
+    }
+
+    .tag {
+      display: inline-block;
+      padding: .35rem .7rem;
+      border-radius: 999px;
+      background: #e6f4ff;
+      color: #075985;
+      font-weight: 700;
+      font-size: .85rem
+    }
+
+    .hero .card {
+      background: var(--card);
+      padding: 18px;
+      border-radius: var(--radius);
+      box-shadow: 0 6px 24px rgba(15, 23, 42, .06)
+    }
+
+    .hero ul {
+      padding-left: 1.1rem;
+      margin: 0
+    }
+
+    .hero li {
+      margin: .35rem 0;
+      color: var(--muted)
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      margin: 26px 0
+    }
+
+    .feature {
+      background: var(--card);
+      padding: 16px;
+      border-radius: var(--radius);
+      box-shadow: 0 10px 30px rgba(2, 132, 199, .08)
+    }
+
+    .feature h3 {
+      margin: .2rem 0 .4rem;
+      font-size: 1.05rem
+    }
+
+    .chip {
+      display: inline-block;
+      padding: .28rem .6rem;
+      border-radius: 999px;
+      background: #eef2ff;
+      color: #3730a3;
+      font-weight: 700;
+      font-size: .75rem
+    }
+
+    .section {
+      padding: 18px 0 10px
+    }
+
+    .section h2 {
+      margin: 0 0 14px
+    }
+
+    .blog {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px
+    }
+
+    .post {
+      background: var(--card);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: 0 8px 30px rgba(15, 23, 42, .06)
+    }
+
+    .post .body {
+      padding: 14px
+    }
+
+    .post h3 {
+      margin: .2rem 0 .5rem;
+      font-size: 1.05rem
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: .85rem
+    }
+
+    .cta {
+      background: linear-gradient(135deg, #0ea5e9, #10b981);
+      color: #fff;
+      border-radius: var(--radius);
+      padding: 18px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 14px
+    }
+
+    .cta .btn {
+      background: #fff;
+      color: var(--ink);
+      border-radius: 12px;
+      padding: .7rem 1rem;
+      font-weight: 700
+    }
+
+    .two {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: var(--radius);
+      padding: 16px;
+      box-shadow: 0 6px 24px rgba(15, 23, 42, .06)
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: .8rem .9rem;
+      border: 1.5px solid #e2e8f0;
+      border-radius: 12px;
+      background: #fff;
+      font-size: 1rem
+    }
+
+    form input:focus,
+    form textarea:focus {
+      outline: 3px solid var(--ring);
+      border-color: var(--brand)
+    }
+
+    form .row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px
+    }
+
+    form button {
+      padding: .85rem 1rem;
+      border: none;
+      border-radius: 12px;
+      background: var(--brand);
+      color: #fff;
+      font-weight: 800;
+      cursor: pointer
+    }
+
+    form button:hover {
+      background: var(--brand-dark)
+    }
+
+    .footer {
+      margin-top: 24px;
+      background: #0b1220;
+      color: #cbd5e1
+    }
+
+    .footer .container {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: 18px;
+      padding: 22px 0
+    }
+
+    .footer a {
+      color: #cbd5e1
+    }
+
+    .footer small {
+      display: block;
+      color: #94a3b8;
+      margin-top: 10px
+    }
+
+    .floating {
+      position: fixed;
+      right: 16px;
+      bottom: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 50
+    }
+
+    .fab {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: var(--accent);
+      color: #fff;
+      font-weight: 800;
+      box-shadow: 0 14px 30px rgba(16, 185, 129, .4)
+    }
+
+    .fab.call {
+      background: var(--brand)
+    }
+
+    @media (max-width: 860px) {
+      .hero {
+        grid-template-columns: 1fr
+      }
+
+      .grid,
+      .blog,
+      .two {
+        grid-template-columns: 1fr
+      }
+
+      .footer .container {
+        grid-template-columns: 1fr
+      }
+
+      .nav a.btn {
+        display: none
+      }
+    }
+    .banner img {
+    width: 100%;
+    height: 3%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Pharmacy",
+    "name":"Maa Jagdamba Medical Store",
+    "telephone":"+91 96676 02381",
+    "address":{
+      "@type":"PostalAddress",
+      "streetAddress":"Boraj",
+      "addressLocality":"Jaipur",
+      "addressRegion":"Rajasthan",
+      "postalCode":"303338",
+      "addressCountry":"IN"
+    },
+    "openingHours":"Mo-Su 08:00-22:00",
+    "image":"",
+    "url":""
+  }
+  </script>
+</head>
+
+<body>
+    <div class="banner">
+    <img src="banerr.jpeg" alt="Store Banner" />
+  </div>
+  <div class="topbar">
+    <div class="container">
+      <img class="logo" src="logo.jpeg" alt="Shree Jagdamba Logo" />
+      <small>Owner: <strong>फूलचंद कुमावत</strong></small>
+      <small>Call: <a style="color:#fff;text-decoration:underline" href="tel:+919667602381">+91 96676 02381</a></small>
+    </div>
+  </div>
+
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo">🩺</div>
+        <div>
+          <h1>Shree jagdamba medical and general provision store</h1>
+          <div style="color:var(--muted);font-size:.95rem">Boraj, Jaipur, Rajasthan — 303338</div>
+        </div>
+      </div>
+      <a class="btn" href="#contact">Contact</a>
+    </div>
+
+    <div class="container hero">
+      <div>
+        <span class="tag">सभी प्रकार की दवाई उपलब्ध — All Types of Medicines Available</span>
+        <h2>आपके भरोसे की <span style="color:var(--brand)">Medical Store</span>, बेहतर सेवा के साथ</h2>
+        <p style="color:var(--muted)">हमारे यहाँ branded, generic, ayurvedic, OTC products, baby care, और healthcare
+          accessories मिलते हैं। Prescription guidance और home‑delivery* (nearby) की सुविधा।</p>
+        <div class="grid">
+          <div class="feature">
+            <div class="chip">₹ Fair Price</div>
+            <img src="gole.png" alt="">
+            <h3>सही दाम — Genuine Medicines</h3>
+            <p class="meta">विश्वसनीय सोर्सिंग, expiry & batch check के साथ।</p>
+          </div>
+          <div class="feature">
+            <div class="chip">Fast</div>
+            <img src="basic_img_16696122491718.jpg" alt="">
+            <h3>Quick Service</h3>
+            <p class="meta">तुरंत बिलिंग और minimal waiting time।</p>
+          </div>
+          <div class="feature">
+            <img src="d.jpg" alt="">
+            <div class="chip">Help</div>
+            <h3>Counselling</h3>
+            <p class="meta">दवाई उपयोग की basic जानकारी और dose‑reminder tips।</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <h3 style="margin:.2rem 0 8px">Store Info</h3>
+        <ul>
+          <li>
+            Owner: <strong>फूलचंद कुमावत</strong><br>
+            <img src="fulchand.jpeg" alt="Owner Photo"
+              style="width:120px; height:auto; border-radius:10px; margin-top:8px;">
+          </li>
+          <li>Phone/WhatsApp: <a href="https://wa.me/919667602381" target="_blank">+91 96676 02381</a></li>
+          <li>Location: <strong>Boraj, Jaipur, Rajasthan — 303338</strong></li>
+          <li>Timing: 8:00 AM – 8:00 PM (Daily)</li>
+        </ul>
+
+        <div style="display:flex;gap:10px;margin-top:12px">
+          <a class="btn" style="background:var(--brand);color:#fff;border-radius:10px;padding:.6rem 1rem"
+            href="tel:+919667602381">Call Now</a>
+          <a class="btn" style="background:var(--accent);color:#fff;border-radius:10px;padding:.6rem 1rem"
+            href="https://wa.me/919667602381" target="_blank">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="container section" id="categories">
+    <h2>मुख्य प्रोडक्ट कैटेगरी</h2>
+    <div class="grid">
+      <div class="feature">
+        <img src="bp.png" alt="">
+        <h3>Branded Medicines</h3>
+        <p class="meta">Antibiotics, Pain Relief, Chronic Care (Diabetes, BP)</p>
+      </div>
+      <div class="feature">
+        <img src="otc.jpg" alt="">
+        <h3>Generic & OTC</h3>
+        <p class="meta">Vitamin, Cough‑Cold, Digestive, First‑Aid</p>
+      </div>
+      <div class="feature">
+        <img src="mother.png" alt="">
+        <h3>Mother & Baby Care</h3>
+        <p class="meta">Diapers, Formula, Wipes, Rash Cream</p>
+      </div>
+      <div class="feature">
+        <img src="ha.png" alt="">
+        <h3>Devices</h3>
+        <p class="meta">Thermometer, Glucometer, Nebulizer, BP Monitor</p>
+      </div>
+      <div class="feature">
+        <img src="pp.jpg" alt="">
+        <h3>Personal Care</h3>
+        <p class="meta">Sanitizers, Masks, Skincare, Hygiene</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container section">
+    <div class="cta">
+      <div>
+        <h3 style="margin:.2rem 0">Prescription है? फोटो भेजें, दवाई तैयार हो जाएगी!</h3>
+        <p style="margin:0;opacity:.95">WhatsApp पर प्रिस्क्रिप्शन शेयर करें — <strong>Pick‑up</strong> या
+          <strong>nearby home‑delivery*</strong>.
+        </p>
+      </div>
+      <a class="btn" href="https://wa.me/919667602381" target="_blank">Send on WhatsApp</a>
+    </div>
+  </section>
+
+  <section class="container section" id="blog">
+    <h2>ब्लॉग — Health Tips & Updates</h2>
+    <div class="blog">
+      <article class="post">
+        <img alt="Blog" src="bj.png" />
+        <div class="body">
+          <h3>बरसात में सर्दी‑जुकाम से बचाव</h3>
+          <p class="meta">2 min read · Tips</p>
+          <p>भाप लेना, पानी पीना, और doctor‑prescribed dose follow करना. OTC cough‑cold के लिए हमसे सलाह लें।</p>
+        </div>
+      </article>
+      <article class="post">
+        <img alt="Blog" src="td.png" />
+        <div class="body">
+          <h3>डायबिटीज़: दवा, डाइट और डिवाइसेज़</h3>
+          <p class="meta">3 min read · Guide</p>
+          <p>Glucometer strips, sugar‑free supplements, और regular monitoring के लिए accessories उपलब्ध।</p>
+        </div>
+      </article>
+      <article class="post">
+        <div class="body">
+          <h3>इम्यूनिटी कैसे बढ़ाएँ?</h3>
+          <img src="ee.jpg" alt="">
+          <p class="meta">2 min read · Wellness</p>
+          <p>Vitamin C, Zinc, Chyawanprash जैसे products available. डॉक्टर की सलाह अनुसार उपयोग करें।</p>
+        </div>
+      </article>
+    </div>
+  </section>
+  <!-- map -->
+  <section class="container section two" id="contact">
+    <div class="card">
+      <h2 style="margin-top:0">Contact / Enquiry</h2>
+      <form id="contactForm">
+        <div class="row">
+          <div><label>नाम</label><input required name="name" placeholder="आपका नाम" /></div>
+          <div><label>मोबाइल</label><input required name="phone" placeholder="10 अंकों का मोबाइल" pattern="[0-9]{10}" />
+          </div>
+        </div>
+        <div style="margin-top:10px"><label>मैसेज</label><textarea name="msg" rows="4"
+            placeholder="अपना संदेश लिखें…"></textarea></div>
+        <div style="display:flex;gap:10px;align-items:center;margin-top:12px">
+          <button type="submit">Submit</button>
+          <a class="btn" style="background:#111;color:#fff;border-radius:10px;padding:.7rem 1rem"
+            href="tel:+919667602381">📞 Call</a>
+          <a class="btn" style="background:#25D366;color:#fff;border-radius:10px;padding:.7rem 1rem" target="_blank"
+            href="https://wa.me/919667602381">💬 WhatsApp</a>
+        </div>
+        <p id="formNote" class="meta" style="margin-top:8px"></p>
+      </form>
+    </div>
+    <div class="card">
+      <h2 style="margin-top:0">हम कहाँ हैं?</h2>
+      <p class="meta" style="margin-top:-6px">Boraj, Jaipur, Rajasthan — 303338</p>
+      <div style="border-radius:12px;overflow:hidden;aspect-ratio:16/10;background:#e2e8f0">
+        <iframe title="Map" width="100%" height="100%" style="border:0" loading="lazy" allowfullscreen
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=Boraj%2C%20Jaipur%20303338&output=embed"></iframe>
+      </div>
+      <p class="meta">दिशा पूछने के लिए कॉल/व्हाट्सएप करें।</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div>
+        <h3 style="color:#fff;margin:0 0 8px">Shree jagdamba medical and general provision store</h3>
+        <p style="margin:0 0 10px">Owner: <strong>फूलचंद कुमावत</strong> · Call: <a href="tel:+919667602381">+91 96676
+            02381</a></p>
+        <small>Address: Boraj, Jaipur, Rajasthan — 303338 /Shree jagdamba medical and general provision store</small>
+      </div>
+      <div>
+        <h4 style="color:#fff;margin:0 0 8px">Timings</h4>
+        <small>Daily — 8:00 AM to 8:00 PM</small>
+      </div>
+      <div>
+        <h4 style="color:#fff;margin:0 0 8px">Quick Links</h4>
+        <small><a href="#categories">Categories</a> · <a href="#blog">Blog</a> · <a href="#contact">Contact</a></small>
+      </div>
+    </div>
+    <div style="text-align:center;padding:12px 0;border-top:1px solid rgba(148,163,184,.2)">
+      <small>© <span id="year"></span> Shree jagdamba medical and general provision store. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <div class="floating">
+    <a class="fab call" href="tel:+919667602381" title="Call Now">📞</a>
+    <a class="fab" href="https://wa.me/919667602381" target="_blank" title="Chat on WhatsApp">💬</a>
+  </div>
+
+  <script>
+    const yearEl = document.getElementById('year');
+    yearEl.textContent = new Date().getFullYear();
+
+    const form = document.getElementById('contactForm');
+    const note = document.getElementById('formNote');
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const data = Object.fromEntries(new FormData(form).entries());
+      // Basic validation
+      if (!data.name || !(data.phone || '').match(/^\d{10}$/)) {
+        note.textContent = 'कृपया सही नाम और 10 अंकों का मोबाइल दर्ज करें।';
+        note.style.color = '#ef4444';
+        return;
+      }
+      note.textContent = 'धन्यवाद! आपका संदेश सेव हो गया है। हम जल्द ही सम्पर्क करेंगे.';
+      note.style.color = '#10b981';
+      form.reset();
+    });
+
+    // Simple toast utility
+    function toast(msg) {
+      const t = document.createElement('div');
+      t.textContent = msg;
+      Object.assign(t.style, {
+        position: 'fixed', bottom: '90px', right: '16px', padding: '10px 14px', background: '#111', color: '#fff', borderRadius: '12px', boxShadow: '0 10px 30px rgba(0,0,0,.35)', zIndex: 60, opacity: 0, transition: 'opacity .2s ease-out'
+      });
+      document.body.appendChild(t);
+      requestAnimationFrame(() => t.style.opacity = 1);
+      setTimeout(() => { t.style.opacity = 0; setTimeout(() => t.remove(), 250) }, 2200);
+    }
+    // Example: show a welcome toast once
+    window.addEventListener('load', () => toast('Welcome to Shree jagdamba medical and general provision store'));
+  </script>
+</body>
+
+</html>
